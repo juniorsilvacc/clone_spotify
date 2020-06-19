@@ -50,6 +50,18 @@ h1{
     color: #fff;
 }
 
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
 /* Botão */
 .btn-custom{
     color: white;
@@ -77,4 +89,19 @@ h1{
 .btn-white:hover{
     background-color: #fff;
     color: #000;
+}
+
+/* Estrutura de conteúdos */
+#servicos{
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos h2, h3{
+    color: #7c25f8;
+}
+
+.albuns{
+    padding: 10px 0;
 }
