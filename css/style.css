@@ -1,6 +1,7 @@
 /* Layout */
 html, body, #home{
     height: 100%;
+    overflow-x: hidden;
 }
 
 body{
@@ -92,16 +93,38 @@ h3{
 }
 
 /* Estrutura de conteúdos */
-#servicos{
-    background: #fff;
+.caixa{
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+#servicos{
+    background: #fff;
 }
 
 #servicos h2, h3{
     color: #7c25f8;
 }
 
+#recursos{
+    color: #fff;
+}
+
+#recursos h3{
+    color: #9be0e1;
+}
+
+#recursos h2{
+    color: #fff;
+}
+
 .albuns{
     padding: 10px 0;
+}
+
+.rotacionar {
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 80px;
 }
